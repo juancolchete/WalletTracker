@@ -1,0 +1,28 @@
+{
+  "name": "wallettracker",
+  "version": "1.0.0",
+  "description": "A simple way to follow your wallet assets",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanudk/WalletTracker.git"
+  },
+  "author": "Juan Colchete",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanudk/WalletTracker/issues"
+  },
+  "homepage": "https://github.com/juanudk/WalletTracker#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
